@@ -79,7 +79,7 @@ tw_id_and_text_df = tweet_df.reindex(columns=["timestamp", "tweet_id", "text"])
 print("消したい単語を入力してください。複数の単語を入力するにはスペースで区切る（cを入力でキャンセル）")
 input_words = input().split()
 if input_words == "c" or "C":
-    sys.exit
+    sys.exit()
 else:
     pass
 
